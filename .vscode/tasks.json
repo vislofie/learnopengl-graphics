@@ -13,6 +13,7 @@
                 "${workspaceFolder}/dependencies/lib/*.a",
                 "${workspaceFolder}/src/*.cpp",
                 "${workspaceFolder}/src/*.c",
+                "-I${workspaceFolder}/src/getting-started",
                 "-o",
                 "${workspaceFolder}/build/openGLBuild",
                 "-framework",
